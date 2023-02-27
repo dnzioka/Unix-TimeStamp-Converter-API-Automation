@@ -20,6 +20,9 @@ In this project I have covered Rest Assured Automation using TestNG framework, M
   * type **mvn –version**
   * you will get something like this **Apache Maven 3.9.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3........**
   * The Apache Maven is now installed successfully on Windows
+##### Note:- For pictorial steps on how to install Maven on windows OS you can also refer to the link below
+* Link :- https://mkyong.com/maven/how-to-install-maven-in-windows/  or follow the above steps
+
 ## How to run the project from Command Line
 * Download the project from GitHub - https://github.com/dnzioka/Unix-TimeStamp-Converter-API-Automation.git  and unzip e.g. **C:\Users\Administrator\SeleniumTraining\TechnicalAssessment**
 * Open **Command prompt** as an Administrator
