@@ -18,7 +18,7 @@ In this project I have covered Rest Assured Automation using TestNG framework, M
 * To verify whether Maven has been installed properly
   * start a new command prompt
   * type **mvn –version**
-  * it will return something like this **Apache Maven 3.9.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3........
+  * it will return something like this **Apache Maven 3.9.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3........**
   * The Apache Maven is now installed successfully on Windows
 ## How to run the project from Command Line
 * Download the project from GitHub - https://github.com/dnzioka/Unix-TimeStamp-Converter-API-Automation.git  and unzip e.g. **C:\Users\Administrator\SeleniumTraining\TechnicalAssessment**
