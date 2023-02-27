@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Unix Timestamp Converter">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="dominicmalile.TestCases.ConvertUnixTimeStampToDate"/>
+      <class name="dominicmalile.TestCases.InvalidDateString"/>
+      <class name="dominicmalile.TestCases.ConvertDateToUnixTimeStamp"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

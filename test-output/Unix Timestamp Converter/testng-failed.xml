@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Unix Timestamp Converter]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="dominicmalile.TestCases.ConvertDateToUnixTimeStamp">
+        <methods>
+          <include name="verifyContentEncoding"/>
+          <include name="verifyContentType"/>
+          <include name="dateToUnixStamp"/>
+          <include name="verifyHTTPstatuscode"/>
+          <include name="VerifyStatusLine"/>
+        </methods>
+      </class> <!-- dominicmalile.TestCases.ConvertDateToUnixTimeStamp -->
+      <class name="dominicmalile.TestCases.InvalidDateString">
+        <methods>
+          <include name="verifyContentEncoding"/>
+          <include name="dateToUnixStamp"/>
+          <include name="VerifyStatusLine"/>
+          <include name="verifyContentType"/>
+          <include name="verifyHTTPstatuscode"/>
+        </methods>
+      </class> <!-- dominicmalile.TestCases.InvalidDateString -->
+      <class name="dominicmalile.TestCases.ConvertUnixTimeStampToDate">
+        <methods>
+          <include name="dateToUnixStamp"/>
+          <include name="verifyContentEncoding"/>
+          <include name="VerifyStatusLine"/>
+          <include name="verifyHTTPstatuscode"/>
+          <include name="verifyContentType"/>
+        </methods>
+      </class> <!-- dominicmalile.TestCases.ConvertUnixTimeStampToDate -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Unix Timestamp Converter] -->
